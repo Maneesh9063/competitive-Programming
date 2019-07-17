@@ -32,12 +32,13 @@ class Single_linked_List(object):
 		if self.head ==None:
 			print("empty")
 		x=self.head
-		while  x.next_node.next_node != None:
-			if self.head ==None:
-				print("empty")
-				break
-			x=x.next_node
-		x.next_node=None
+		else:
+			while  x.next_node.next_node != None:
+				if self.head ==None:
+					print("empty")
+					break
+				x=x.next_node
+			x.next_node=None
 
 
 
