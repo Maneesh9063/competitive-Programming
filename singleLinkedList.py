@@ -2,8 +2,7 @@ class Node():
 	def __init__(self,data):
 		self.data = data
 		self.next_node=None
-	def get(self):
-		return self.data
+
 
 class Single_linked_List(object):
 	"""docstring for Single_linked_List"""
@@ -60,4 +59,3 @@ b.get()
 
 
 
-		
